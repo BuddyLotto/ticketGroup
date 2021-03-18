@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Ticket Add-on
+ * Plugin Name: ticketGroup Add-on
  * Plugin URI:  https://buddylotto.com/
  * Description: Example plugin to show developers how to add their own settings into BuddyBoss Platform.
  * Author:      BuddyBoss
  * Author URI:  https://buddyboss.com/
  * Version:     1.0.0
- * Text Domain: Ticket
+ * Text Domain: ticketGroup
  * Domain Path: /languages/
  * License:     GPLv3 or later (license.txt)
  */
@@ -148,13 +148,13 @@ if ( ! class_exists( 'MYPLUGIN_BB_Platform_Addon' ) ) {
 
 	function MYPLUGIN_BB_Platform_install_bb_platform_notice() {
 		echo '<div class="error fade"><p>';
-		_e('<strong>Ticket</strong></a> requires the BuddyBoss Platform plugin to work. Please <a href="https://buddyboss.com/platform/" target="_blank">install BuddyBoss Platform</a> first.', 'buddyboss-platform-addon');
+		_e('<strong>ticketGroup</strong></a> requires the BuddyBoss Platform plugin to work. Please <a href="https://buddyboss.com/platform/" target="_blank">install BuddyBoss Platform</a> first.', 'buddyboss-platform-addon');
 		echo '</p></div>';
 	}
 
 	function MYPLUGIN_BB_Platform_update_bb_platform_notice() {
 		echo '<div class="error fade"><p>';
-		_e('<strong>Ticket</strong></a> requires BuddyBoss Platform plugin version 1.2.6 or higher to work. Please update BuddyBoss Platform.', 'buddyboss-platform-addon');
+		_e('<strong>ticketGroup</strong></a> requires BuddyBoss Platform plugin version 1.2.6 or higher to work. Please update BuddyBoss Platform.', 'buddyboss-platform-addon');
 		echo '</p></div>';
 	}
 

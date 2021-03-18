@@ -148,13 +148,13 @@ if ( ! class_exists( 'MYPLUGIN_BB_Platform_Addon' ) ) {
 
 	function MYPLUGIN_BB_Platform_install_bb_platform_notice() {
 		echo '<div class="error fade"><p>';
-		_e('<strong>BuddyBoss Platform Add-on</strong></a> requires the BuddyBoss Platform plugin to work. Please <a href="https://buddyboss.com/platform/" target="_blank">install BuddyBoss Platform</a> first.', 'buddyboss-platform-addon');
+		_e('<strong>Ticket</strong></a> requires the BuddyBoss Platform plugin to work. Please <a href="https://buddyboss.com/platform/" target="_blank">install BuddyBoss Platform</a> first.', 'buddyboss-platform-addon');
 		echo '</p></div>';
 	}
 
 	function MYPLUGIN_BB_Platform_update_bb_platform_notice() {
 		echo '<div class="error fade"><p>';
-		_e('<strong>BuddyBoss Platform Add-on</strong></a> requires BuddyBoss Platform plugin version 1.2.6 or higher to work. Please update BuddyBoss Platform.', 'buddyboss-platform-addon');
+		_e('<strong>Ticket</strong></a> requires BuddyBoss Platform plugin version 1.2.6 or higher to work. Please update BuddyBoss Platform.', 'buddyboss-platform-addon');
 		echo '</p></div>';
 	}
 
